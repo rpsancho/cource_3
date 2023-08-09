@@ -1,0 +1,13 @@
+[
+  {
+    "word": "qwerty",
+    "number": 12345,
+    "dict":{
+      "bool": true
+    }
+  },
+  {
+    "word": "asdfg",
+    "number": 67890
+  }
+]
