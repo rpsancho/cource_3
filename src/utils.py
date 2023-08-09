@@ -12,7 +12,7 @@ def remove_invalid_data_from_list(src_list):
     for item in src_list:
         if not item:
             continue
-        if not item['date']:
+        if 'date' not in item:
             continue
         valid_list.append(item)
     return valid_list
